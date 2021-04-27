@@ -1,0 +1,19 @@
+{
+  "name": "CLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./src/test.js --reporter nyan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "dependencies": {
+    "nock": "^13.0.11"
+  }
+}
